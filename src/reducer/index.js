@@ -106,6 +106,13 @@ const updateFilter = (state,action) => {
                 value: "",
                 loading: false,
             }
+        case 'SET_CATEGORY':
+            return {
+                data: state.filter.data,
+                name: "",
+                value: "",
+                loading: false,
+            }
         
             
         default:
